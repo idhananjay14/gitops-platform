@@ -91,11 +91,17 @@ Access the application at: http://localhost:8095
 
 ## Screenshots
 
-![Application UI](demo/screenshots/2-app-ui.png)
-![ArgoCD Sync Status](demo/screenshots/3-argocd-synced.png)
-![Drift Detection](demo/screenshots/5-scale-drift.png)
-![Grafana Dashboard](demo/screenshots/7-grafana.png)
+### Application UI
+![App UI](demo/screenshots/2-app-ui.png)
 
+### ArgoCD Sync Status
+![ArgoCD](demo/screenshots/3-argocd-synced.png)
+
+### Drift Detection
+![Drift](demo/screenshots/5-scale-drift.png)
+
+### Grafana Dashboard
+![Grafana](demo/screenshots/6-grafana.png)
 ---
 
 ## Key Learnings
