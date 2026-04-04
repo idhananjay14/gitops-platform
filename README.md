@@ -2,14 +2,18 @@
 
 ## Overview
 
-This project demonstrates a GitOps-based Kubernetes platform using ArgoCD. It implements automated deployments, drift detection, and self-healing mechanisms, along with observability using Prometheus and Grafana.
+This project demonstrates a GitOps-based Kubernetes platform using ArgoCD. It implements automated deployments, 
+drift detection, and self-healing mechanisms, along with observability using Prometheus and Grafana.
 ---
 
 ## Why This Project?
 
-**Problem:** In Kubernetes environments, manual changes can cause configuration drift, leading to inconsistencies and delayed recovery.
+**Problem:** In Kubernetes environments, manual changes can cause configuration drift, leading to inconsistencies and
+             delayed recovery.
 
-**Solution:** This project implements a GitOps workflow where Git is the single source of truth. ArgoCD continuously syncs the cluster and automatically corrects any drift. Manual changes such as pod deletion or scaling are detected and reverted within seconds, ensuring consistency and reliability.
+**Solution:** This project implements a GitOps workflow where Git is the single source of truth. ArgoCD continuously
+              syncs the cluster and automatically corrects any drift. Manual changes such as pod deletion or scaling 
+              are detected and reverted within seconds, ensuring consistency and reliability.
 ---
 
 ## Architecture
